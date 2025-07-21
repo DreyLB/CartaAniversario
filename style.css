@@ -26,7 +26,7 @@ body {
   background-size: cover;
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 50%;
   z-index: -1;
 }
 
@@ -59,7 +59,7 @@ body {
   max-width: 90%;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 800px) {
   .carousel img {
     width: 200px;
     height: 300px;
@@ -67,6 +67,9 @@ body {
 
   .message {
     font-size: 1rem;
+  }
+  .background {
+    width: 100%;
   }
 }
 
